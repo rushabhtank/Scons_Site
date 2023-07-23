@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- divinectorweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+    <link\Contactus.html
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"/>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        />
+      <link rel="stylesheet" href="./stylesheet.css" />
+    </head>
+    <body>
+      <div class="con">
+        <div class="contactUs">
+          <div class="container">
+            <aside>
+              <h1>do you have any questions?</h1>
+              <h2>feel free to contact us!</h2>
+            </aside>
+            <form id="form" action="connect.php" method="post">
+              <input type="text" name="name" id="" placeholder="Name" required "> 
+              <input type="email" name="email" id="email" placeholder="Email"
+                required>
+              <input type="text" name="message" id="" placeholder="Message"
+                required>
+              <input type="submit" value="submit" id="submit">
+              <p id="msg"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="profil">
+        <div class="carousel">
+          <p>🙏🏻 Happy to Help You...!🙏🏻</p>
+          <p>We'd Love to Hear From You.....📞</p>
+          <a class="carousel-item" href="#">
+            <div class="card">
+              <div class="box1"></div>
+              <div class="img-area"><img src="image/Pravin.jpg" alt="" /></div>
+              <div class="main-text">
+                <h2>Pravin Sondigala</h2>
+                <p>Mobile - 9822279075</p>
+                <p>"Our Client’s satisfaction is the essence of our success."</p>
+              </div>
+            </div>
+          </a>
+          <a class="carousel-item" href="#">
+            <div class="card">
+              <div class="box1"></div>
+              <div class="img-area"><img src="image/Mohit.jpg" alt="" /></div>
+              <div class="main-text">
+                <h2>Mohit Sondigala</h2>
+                <p>Mobile - 8208503310</p>
+                <p>Email - mohits5151@gmail.com</p>
+              </div>
+            </div>
+          </a>
+          <!-- <a class="carousel-item" href="#">
+                    <div class="card">
+                        <div class="box1"></div>
+                        <div class="img-area"><img src="image/manav.jpg" alt=""></div>
+                        <div class="main-text">
+                            <h2>Manav Sondigala</h2>
+                            <p>Mobile - 7040335131</p>
+                            <p>Email - manavps008@gmail.com</p>
+                        </div>
+                    </div>
+                </a> -->
+          <a class="carousel-item" href="#">
+            <div class="card">
+              <div class="box1"></div>
+              <div class="img-area"><img src="image/Vasant.jpg" alt="" /></div>
+              <div class="main-text">
+                <h2>Vasant Sondigala</h2>
+                <p>Mobile - 9823499369</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+      $(document).ready(function () {
+        $(".carousel").carousel();
+      });
+    </script>
+    </body>
+  </html>

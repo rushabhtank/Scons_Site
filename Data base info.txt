@@ -1,0 +1,5 @@
+scons_site - Data base 
+feedback - Table name
+
+
+Database link - http://localhost/phpmyadmin/index.php?route=/sql&pos=0&db=scons_site&table=feedback

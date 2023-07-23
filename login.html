@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div class="head">
+            <h1 "Welcome">Welcome</h1>
+            <div class="hero">
+                <div class="formbox">
+                    <div class="buttonbox">
+                        <div class="btn"></div>
+                        <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+                        <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                    </div>
+                    <div class="socialicons">
+                        <img src="image\fb.png">
+                        <img src="image\gp.png">
+                        <img src="image\tw.png">
+                    </div>
+                    <form id="login" class="input-group">
+                        <input type="text" class="field" placeholder="User ID"
+                            required>
+                        <br>
+                        <input type="text" class="field" placeholder="Enter Password" required>
+                        </br>   
+                        <br>
+                        <input type="checkbox" class="checkb"><span>Remember Password</span>
+                        </br>
+                        <a href="home.html" <button type="submit" class="submitbtn">Log In </button></a>
+                    </form>
+                    <form id="register" class="input-group">
+                        <input type="text" class="field" placeholder="User ID"
+                            required>
+                        <br>
+                        <input type="email" class="field" placeholder="Enter email Id" required><br>
+                        </br>
+                        <input type="email" class="field" placeholder="Enter Password" required>
+                        <br>
+                        <input type="checkbox" class="checkb"><span>I Agree to the terms and conditions.</span>
+                        </br>
+                        <button type="submit" class="submitbtn">Register</button>
+                    </form>
+                </div>
+        </div>
+            <script>
+                var x = document.getElementById("login");
+                var y = document.getElementById("register");
+                var z = document.getElementById("btn");
+
+                function register(){
+                    x.style.left = "-400px";
+                    y.style.left = "50px";
+                    z.style.left = "110px";
+                }
+                function login(){
+                    x.style.left = "50px";
+                    y.style.left = "450px";
+                    z.style.left = "0px";
+                }
+                  
+            </script>
+        </div>
+    </body>
+</html>
