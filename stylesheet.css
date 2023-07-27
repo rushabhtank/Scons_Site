@@ -273,8 +273,9 @@ header .nav li:last-child {
   position: relative;
   justify-content: center;
   min-height: 100vh;
-  color: #dadada;
+  color: #ffffff;
   text-align: center;
+  background-color: #000;
 }
 
 .box video {
@@ -326,6 +327,7 @@ header .nav li:last-child {
   grid-template-columns: repeat(2, 1fr);
   row-gap: 10px;
   column-gap: 10px;
+  background-color: #000;
 }
 
 .items1 {
