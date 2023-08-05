@@ -275,7 +275,7 @@ header .nav li:last-child {
   min-height: 100vh;
   color: #ffffff;
   text-align: center;
-  background-color: #000;
+  /* background-color: #000; */
   background-image: url(/image/blackM.jpg);
   background-repeat: no-repeat;
   background-size: cover;
