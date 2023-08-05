@@ -385,6 +385,11 @@ header .nav li:last-child {
   padding-top: 30px;
 }
 
+.clintimg img{
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
 .main-con {
   color: #fff;
   font-size: xx-large;
